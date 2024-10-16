@@ -1,0 +1,21 @@
+/* Import the Google font for 'Caveat' */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap');
+
+/* Tailwind base, components, and utilities layers */
+
+@tailwind utilities;
+
+/* Custom utilities */
+@layer utilities {
+
+
+  /* Custom monospace font utility */
+  .font-code {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  /* Custom font for 'Caveat' */
+  .font-cute {
+    font-family: 'Caveat';
+  }
+}
